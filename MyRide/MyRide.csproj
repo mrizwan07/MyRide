@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Admens\Admins.csproj" />
+    <ProjectReference Include="..\Driver\Drivers.csproj" />
+    <ProjectReference Include="..\Locations\Locations.csproj" />
+    <ProjectReference Include="..\Passengers\Passengers.csproj" />
+    <ProjectReference Include="..\Rides\Rides.csproj" />
+    <ProjectReference Include="..\Vehicles\Vehicles.csproj" />
+  </ItemGroup>
+
+</Project>

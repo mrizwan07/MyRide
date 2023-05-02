@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Admins/1.0.0": {
+        "dependencies": {
+          "Drivers": "1.0.0"
+        },
+        "runtime": {
+          "Admins.dll": {}
+        }
+      },
+      "Drivers/1.0.0": {
+        "dependencies": {
+          "Locations": "1.0.0",
+          "Vehicles": "1.0.0"
+        },
+        "runtime": {
+          "Drivers.dll": {}
+        }
+      },
+      "Locations/1.0.0": {
+        "runtime": {
+          "Locations.dll": {}
+        }
+      },
+      "Vehicles/1.0.0": {
+        "runtime": {
+          "Vehicles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Admins/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Drivers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Locations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vehicles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

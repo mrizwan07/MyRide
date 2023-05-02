@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Drivers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Locations": "1.0.0",
+          "Vehicles": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Drivers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Drivers.dll": {}
+        }
+      },
+      "Locations/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Locations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Locations.dll": {}
+        }
+      },
+      "Vehicles/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Vehicles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vehicles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Drivers/1.0.0": {
+      "type": "project",
+      "path": "../Driver/Drivers.csproj",
+      "msbuildProject": "../Driver/Drivers.csproj"
+    },
+    "Locations/1.0.0": {
+      "type": "project",
+      "path": "../Locations/Locations.csproj",
+      "msbuildProject": "../Locations/Locations.csproj"
+    },
+    "Vehicles/1.0.0": {
+      "type": "project",
+      "path": "../Vehicles/Vehicles.csproj",
+      "msbuildProject": "../Vehicles/Vehicles.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Drivers >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rizwan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Admens\\Admins.csproj",
+      "projectName": "Admins",
+      "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Admens\\Admins.csproj",
+      "packagesPath": "C:\\Users\\Rizwan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Admens\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rizwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Driver\\Drivers.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Driver\\Drivers.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Admens\Admins.csproj" />
+    <ProjectReference Include="..\Driver\Drivers.csproj" />
+    <ProjectReference Include="..\Locations\Locations.csproj" />
+    <ProjectReference Include="..\Passengers\Passengers.csproj" />
+  </ItemGroup>
+
+</Project>

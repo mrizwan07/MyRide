@@ -1,0 +1,199 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Admins/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Drivers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Admins.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Admins.dll": {}
+        }
+      },
+      "Drivers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Locations": "1.0.0",
+          "Vehicles": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Drivers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Drivers.dll": {}
+        }
+      },
+      "Locations/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Locations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Locations.dll": {}
+        }
+      },
+      "Passengers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Passengers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Passengers.dll": {}
+        }
+      },
+      "Rides/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Admins": "1.0.0",
+          "Drivers": "1.0.0",
+          "Locations": "1.0.0",
+          "Passengers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rides.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rides.dll": {}
+        }
+      },
+      "Vehicles/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Vehicles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vehicles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Admins/1.0.0": {
+      "type": "project",
+      "path": "../Admens/Admins.csproj",
+      "msbuildProject": "../Admens/Admins.csproj"
+    },
+    "Drivers/1.0.0": {
+      "type": "project",
+      "path": "../Driver/Drivers.csproj",
+      "msbuildProject": "../Driver/Drivers.csproj"
+    },
+    "Locations/1.0.0": {
+      "type": "project",
+      "path": "../Locations/Locations.csproj",
+      "msbuildProject": "../Locations/Locations.csproj"
+    },
+    "Passengers/1.0.0": {
+      "type": "project",
+      "path": "../Passengers/Passengers.csproj",
+      "msbuildProject": "../Passengers/Passengers.csproj"
+    },
+    "Rides/1.0.0": {
+      "type": "project",
+      "path": "../Rides/Rides.csproj",
+      "msbuildProject": "../Rides/Rides.csproj"
+    },
+    "Vehicles/1.0.0": {
+      "type": "project",
+      "path": "../Vehicles/Vehicles.csproj",
+      "msbuildProject": "../Vehicles/Vehicles.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Admins >= 1.0.0",
+      "Drivers >= 1.0.0",
+      "Locations >= 1.0.0",
+      "Passengers >= 1.0.0",
+      "Rides >= 1.0.0",
+      "Vehicles >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rizwan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\MyRide\\MyRide.csproj",
+      "projectName": "MyRide",
+      "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\MyRide\\MyRide.csproj",
+      "packagesPath": "C:\\Users\\Rizwan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\MyRide\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rizwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Admens\\Admins.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Admens\\Admins.csproj"
+            },
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Driver\\Drivers.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Driver\\Drivers.csproj"
+            },
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Locations\\Locations.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Locations\\Locations.csproj"
+            },
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Passengers\\Passengers.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Passengers\\Passengers.csproj"
+            },
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Rides\\Rides.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Rides\\Rides.csproj"
+            },
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Vehicles\\Vehicles.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Vehicles\\Vehicles.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

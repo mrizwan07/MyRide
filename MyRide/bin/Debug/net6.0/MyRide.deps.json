@@ -1,0 +1,104 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyRide/1.0.0": {
+        "dependencies": {
+          "Admins": "1.0.0",
+          "Drivers": "1.0.0",
+          "Locations": "1.0.0",
+          "Passengers": "1.0.0",
+          "Rides": "1.0.0",
+          "Vehicles": "1.0.0"
+        },
+        "runtime": {
+          "MyRide.dll": {}
+        }
+      },
+      "Admins/1.0.0": {
+        "dependencies": {
+          "Drivers": "1.0.0"
+        },
+        "runtime": {
+          "Admins.dll": {}
+        }
+      },
+      "Drivers/1.0.0": {
+        "dependencies": {
+          "Locations": "1.0.0",
+          "Vehicles": "1.0.0"
+        },
+        "runtime": {
+          "Drivers.dll": {}
+        }
+      },
+      "Locations/1.0.0": {
+        "runtime": {
+          "Locations.dll": {}
+        }
+      },
+      "Passengers/1.0.0": {
+        "runtime": {
+          "Passengers.dll": {}
+        }
+      },
+      "Rides/1.0.0": {
+        "dependencies": {
+          "Admins": "1.0.0",
+          "Drivers": "1.0.0",
+          "Locations": "1.0.0",
+          "Passengers": "1.0.0"
+        },
+        "runtime": {
+          "Rides.dll": {}
+        }
+      },
+      "Vehicles/1.0.0": {
+        "runtime": {
+          "Vehicles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyRide/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admins/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Drivers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Locations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Passengers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rides/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vehicles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

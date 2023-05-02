@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Admins/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Drivers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Admins.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Admins.dll": {}
+        }
+      },
+      "Drivers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Locations": "1.0.0",
+          "Vehicles": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Drivers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Drivers.dll": {}
+        }
+      },
+      "Locations/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Locations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Locations.dll": {}
+        }
+      },
+      "Passengers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Passengers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Passengers.dll": {}
+        }
+      },
+      "Vehicles/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Vehicles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vehicles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Admins/1.0.0": {
+      "type": "project",
+      "path": "../Admens/Admins.csproj",
+      "msbuildProject": "../Admens/Admins.csproj"
+    },
+    "Drivers/1.0.0": {
+      "type": "project",
+      "path": "../Driver/Drivers.csproj",
+      "msbuildProject": "../Driver/Drivers.csproj"
+    },
+    "Locations/1.0.0": {
+      "type": "project",
+      "path": "../Locations/Locations.csproj",
+      "msbuildProject": "../Locations/Locations.csproj"
+    },
+    "Passengers/1.0.0": {
+      "type": "project",
+      "path": "../Passengers/Passengers.csproj",
+      "msbuildProject": "../Passengers/Passengers.csproj"
+    },
+    "Vehicles/1.0.0": {
+      "type": "project",
+      "path": "../Vehicles/Vehicles.csproj",
+      "msbuildProject": "../Vehicles/Vehicles.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Admins >= 1.0.0",
+      "Drivers >= 1.0.0",
+      "Locations >= 1.0.0",
+      "Passengers >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rizwan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Rides\\Rides.csproj",
+      "projectName": "Rides",
+      "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Rides\\Rides.csproj",
+      "packagesPath": "C:\\Users\\Rizwan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Rides\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rizwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Admens\\Admins.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Admens\\Admins.csproj"
+            },
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Driver\\Drivers.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Driver\\Drivers.csproj"
+            },
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Locations\\Locations.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Locations\\Locations.csproj"
+            },
+            "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Passengers\\Passengers.csproj": {
+              "projectPath": "C:\\Users\\Rizwan\\Desktop\\MyRideV1\\Passengers\\Passengers.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
