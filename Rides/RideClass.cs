@@ -5,7 +5,7 @@ using Passengers;
 using Admins;
 using System.Data.Common;
 using System.Collections.Generic;
-//Rides
+//Rides Class
 namespace Rides
 {
     public class Ride
